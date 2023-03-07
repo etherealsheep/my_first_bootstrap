@@ -13,6 +13,10 @@
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
     </script>
     <!--/.installazione bootstrap-->
+    <!--fontawesome-->
+    <link rel="stylesheet" href="https://kit.fontawesome.com/5a6f4da4aa.css" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/5a6f4da4aa.js" crossorigin="anonymous"></script>
+    <!--/.fontawesome-->
 </head>
 
 <body>
@@ -46,6 +50,14 @@
     </nav>
     <!--navbar-->
     <article class="container mt-3">
+        <div class="row d-none d-sm-block">
+            <div class="col-12">
+                <div class="alert alert-warning" role="alert">
+                    <strong>Sale Is On!</strong> We've got a sale on. Get a 12-month subscription for the price of 6! <a
+                        href="">See here for details!</a>
+                </div>
+            </div>
+        </div>
         <!--callout-->
         <div class="row">
             <div class="col-12">
@@ -69,16 +81,30 @@
             </div>
             <div class="row">
                 <div class="col-12 col-md-6">
-                    <blockquote class="blockquote">
-                        <p>I've ben introduced to more than 10 great international whiskeys I know about.</p>
-                        <p>- Jane Doe</p>
-                    </blockquote>
+                    <div class="media">
+                        <div class="d-none d-sm-block">
+                            <img src="images/girl-image.png" class="rounded-circle mr-3" height="100" width="100">
+                        </div>
+                        <div class="media-body">
+                            <blockquote class="blockquote">
+                                <p>I've ben introduced to more than 10 great international whiskeys I know about.</p>
+                                <p>- Jane Doe</p>
+                            </blockquote>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-12 col-md-6">
-                    <blockquote class="blockquote">
-                        <p>I haven't been sober for months!</p>
-                        <p>- Jane Doe</p>
-                    </blockquote>
+                    <div class="media">
+                        <div class="d-none d-sm-block">
+                            <img src="images/guy-image.png" class="rounded-circle mr-3" height="100" width="100">
+                        </div>
+                        <div class="media-body">
+                            <blockquote class="blockquote">
+                                <p>I haven't been sober for months!</p>
+                                <p>- Jane Doe</p>
+                            </blockquote>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -95,7 +121,8 @@
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="feature">
-                        <h3>Feature 1</h3>
+                        <h3><i class="fa-solid fa-gift d-none d-sm-inline"></i> Feature 1 <span
+                                class="badge text-bg-success">NEW!</span></h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, corrupti voluptatem
                             aspernatur
                             perspiciatis tempora nobis commodi, quisquam facilis repudiandae sunt aperiam sit incidunt
@@ -105,7 +132,7 @@
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="feature">
-                        <h3>Feature 2</h3>
+                        <h3><i class="fa-solid fa-credit-card d-none d-sm-inline"></i> Feature 2</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium voluptatum doloribus
                             accusantium placeat blanditiis recusandae vel laboriosam deleniti. Dignissimos ad enim odio
                             eius
@@ -115,7 +142,7 @@
                 </div>
                 <div class="col-12 d-md-none d-lg-block col-lg-4">
                     <div class="feature">
-                        <h3>Feature 3</h3>
+                        <h3><i class="fa-solid fa-circle-xmark d-none d-sm-inline"></i> Feature 3</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil mollitia qui delectus
                             voluptatum
                             eveniet consequatur sunt aspernatur tempore ex suscipit nam, officiis explicabo facere in
